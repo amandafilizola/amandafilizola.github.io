@@ -1,0 +1,48 @@
+/* ROXO #7F05F1 */
+/* VERDE #1DB954 */
+.habilidades-container {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.habilidades {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.barra {
+    background-color: white;
+    flex:5;
+    border-radius: 30px;
+    border: 5px solid #1DB954;
+    display: flex;
+}
+.barrinhas-container {
+    height: 90vh;
+    /* padding: 50px 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    width: 100%;
+}
+.habilidade-container {
+    display: flex;
+    flex-direction: row;
+    margin-top:40px;
+    width: 100%;
+}
+.title-hab {
+    flex:1;
+}
+.space {
+    flex:0.5;
+}
+
+.preenchimento-barrinha {
+    background-color: #7F05F1;
+    border-radius: 30px;
+}

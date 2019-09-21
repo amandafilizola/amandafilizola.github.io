@@ -1,0 +1,28 @@
+body,html {
+    background-color: #181719;
+    color: white;
+    font-family: 'Century Gothic';
+    margin:0px;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    height: 150px;
+}
+.navbar-item {
+    flex:1;
+    text-align: center;
+}
+.navbar-item h2 {
+    margin:0;
+    transition: 0.5s;
+    height: 100%;
+}
+.navbar-item h2:hover {
+    border-bottom: 5px solid #7F05F1;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
