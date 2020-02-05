@@ -5,11 +5,11 @@ import SobreMim from './components/SobreMim/SobreMim';
 import Habilidades from './components/Habilidades/Habilidades';
 function App() {
   return (
-    <div>
+    <>
       <Navbar></Navbar>
       <SobreMim></SobreMim>
       <Habilidades></Habilidades>
-    </div>
+    </>
   );
 }
 

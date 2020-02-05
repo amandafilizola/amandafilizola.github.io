@@ -8,7 +8,7 @@ class SobreMim extends React.Component {
         return (
             <div className="sobremim" id="sobremim">
                 <div className="avatar-space">
-                    <img class="avatar" src={avatar} alt="Foto de perfil de Amanda"  
+                    <img className="avatar" src={avatar} alt="Foto de perfil de Amanda"
                     onMouseOver={e => (e.currentTarget.src = avatar2)}
                     onMouseOut={e => (e.currentTarget.src = avatar)}
                     />

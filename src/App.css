@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'YouthTouch';
+    src: local('YouthTouch');
+    src: url('./assets/YouthTouch.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: 'YouthTouch', 'Times New Roman', Times, serif;
+}
